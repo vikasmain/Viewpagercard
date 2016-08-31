@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.design.widget.CoordinatorLayout android:fitsSystemWindows="true" android:layout_height="match_parent" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:orientation="horizontal" android:gravity="center" android:layout_marginTop="16dp" android:layout_gravity="top">
+
+    <Button android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Fragments" style="@style/ButtonStyle" android:id="@+id/cardTypeBtn"/>
+
+    <CheckBox android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Scale" android:id="@+id/checkBox" android:layout_marginLeft="30dp" android:layout_marginStart="30dp"/>
+
+</LinearLayout>
+
+    <android.support.v4.view.ViewPager android:layout_height="230dp" android:layout_width="match_parent" android:layout_gravity="bottom" android:id="@+id/viewPager" android:paddingStart="@dimen/card_padding" android:paddingRight="@dimen/card_padding" android:paddingLeft="@dimen/card_padding" android:paddingEnd="@dimen/card_padding" android:paddingBottom="10dp" android:overScrollMode="never" android:clipToPadding="false"/>
+
+</android.support.design.widget.CoordinatorLayout>

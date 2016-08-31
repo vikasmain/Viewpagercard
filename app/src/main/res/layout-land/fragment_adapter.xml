@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <android.support.v7.widget.CardView android:layout_gravity="center" android:layout_height="wrap_content" android:layout_width="match_parent" app:cardUseCompatPadding="true" android:id="@+id/cardView" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <FrameLayout android:layout_height="wrap_content" android:layout_width="match_parent">
+
+
+    <LinearLayout android:layout_height="wrap_content" android:layout_width="match_parent" android:padding="8dp" android:orientation="vertical" android:gravity="center">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Card title" style="@style/TextAppearance.AppCompat.Title"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget ligula eu lectus lobortis condimentum." style="@style/TextAppearance.AppCompat.Body1" android:layout_marginTop="16dp"/>
+
+    <Button android:layout_height="wrap_content" android:layout_width="match_parent" android:text="Button" style="@style/ButtonStyle" android:layout_marginTop="16dp"/>
+
+</LinearLayout>
+
+    <ImageView android:layout_gravity="top|start" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="-5dp" android:src="@drawable/ic_bookmark_24dp" android:layout_marginLeft="8dp" android:layout_marginStart="8dp"/>
+
+</FrameLayout>
+
+</android.support.v7.widget.CardView>
